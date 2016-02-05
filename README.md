@@ -7,4 +7,4 @@ Currently includes:
   * Once you've finished evaluating a project, it quits the tab.
   * Once you've finished evaluating all the projects, it generates a new set.
   * Completely legitimate. These are real projects, with real creators, & with real consequences.
-  * Run by Terminal.app (`git clone https://github.com/KhanAcademyAmateurs/UsefulKAScripts; osascript UsefulKAScripts/next-eval.scpt`) or by Script Editor.
+  * Run by Terminal.app (`osascript UsefulKAScripts/next-eval.scpt`) or by Script Editor.
