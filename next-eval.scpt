@@ -1,10 +1,10 @@
 repeat
 	tell application "Safari"
-		if the text of the front document contains "minute?" then close the current tab of window 1
+		if the text of the front document contains "minute?" then close the current tab of the first window
 		
 		set done to false
 		
-		set titles to get URL of every tab of window 1
+		set titles to get URL of every tab of the first window
 		
 		repeat with theTitle in titles
 			if theTitle contains "programming" then set done to true
